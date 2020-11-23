@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/simpsons_toolbar">
+
+    </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_spinner"
+        android:paddingTop="@dimen/padding_general"
+        android:textSize="@dimen/tamanio_etiqueta"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/icons"
+        />
+    <Spinner
+        android:layout_marginTop="@dimen/padding_general"
+        android:id="@+id/cantidad_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_general"
+        />
+    <Button
+        android:id="@+id/ejecutar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:text="@string/solicitar_consejo"
+        android:padding="@dimen/padding_general"
+        android:layout_marginTop="@dimen/padding_general"/>
+    <ListView
+        android:id="@+id/frases_lv"
+        android:padding="@dimen/padding_general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpsonsApp</string>
+    <string name="titulo_spinner">Ingrese la cantidad de frases para ver</string>
+    <string name="solicitar_consejo">Solicitar Consejo</string>
+</resources>

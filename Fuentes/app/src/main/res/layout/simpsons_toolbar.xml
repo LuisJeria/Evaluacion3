@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:background="@color/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    app:popupTheme="@style/Theme.AppCompat.Light"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="@dimen/padding_general"
+            android:layout_width="@dimen/tamanio_imagen_ancho"
+            android:layout_height="@dimen/tamanio_imagen"
+            android:gravity="center"
+            android:src="@drawable/ic_logo_the_simpsons" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

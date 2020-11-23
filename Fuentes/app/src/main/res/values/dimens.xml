@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanio_imagen">80dp</dimen>
+    <dimen name="tamanio_imagen_ancho">300dp</dimen>
+    <dimen name="padding_general">10dp</dimen>
+    <dimen name="padding_list">15dp</dimen>
+    <dimen name="tamanio_etiqueta">20sp</dimen>
+</resources>
