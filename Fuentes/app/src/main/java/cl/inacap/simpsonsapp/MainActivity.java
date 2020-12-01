@@ -28,6 +28,8 @@ import java.util.List;
 import cl.inacap.simpsonsapp.adapters.FrasesListAdapter;
 import cl.inacap.simpsonsapp.dto.Frase;
 
+//Activity que contiene los elementos para el consumo de la api
+
 public class MainActivity extends AppCompatActivity {
 
     private Spinner frasesSpinner;

@@ -21,6 +21,8 @@ import java.util.zip.Inflater;
 import cl.inacap.simpsonsapp.R;
 import cl.inacap.simpsonsapp.dto.Frase;
 
+
+//Listview que muestra los datos obtenidos de la api rest
 public class FrasesListAdapter extends ArrayAdapter<Frase> {
 
     private List<Frase> frases;
